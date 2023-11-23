@@ -1,9 +1,10 @@
+import TicTacToe from "./components/TicTacToe/TicTacToe"
 
 function App() {
 
   return (
     <>
-    <TicTa
+    <TicTacToe/>
    
     </>
   )
