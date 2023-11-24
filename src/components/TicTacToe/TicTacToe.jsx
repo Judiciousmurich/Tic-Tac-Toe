@@ -10,7 +10,7 @@ const TicTacToe = () => {
             <div className="boxes"></div>
             <div className="boxes"></div>
           </div>
-          <div className="row1">
+          <div className="row2">
             <div className="boxes"></div>
             <div className="boxes"></div>
             <div className="boxes"></div>
