@@ -5,7 +5,7 @@ const TicTacToe = () => {
     <div className='text-center'>
       <h1 className="mt-[8] text-white text-2xl flex items-center justify-center">TicTacToe <span className="text-[#26ffcb] pl-[5]">Judicious</span></h1>
       <div className="board">
-        <div className="flex">
+        <div className="flex b-[#1f540] w-6 h-6">
           <div className="boxes"></div>
           <div className="boxes"></div>
           <div className="boxes"></div>
