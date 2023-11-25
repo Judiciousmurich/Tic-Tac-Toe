@@ -17,8 +17,7 @@ const TicTacToe = () => {
           </div>
         </div>
 
- <div className="row2
- ">
+        <div className="row3">
             <div className="boxes"></div>
             <div className="boxes"></div>
             <div className="boxes"></div>
@@ -29,7 +28,7 @@ const TicTacToe = () => {
         
         
         <buttton className="w-6 h-6 border-none outline-none cursor-pointer rounded bg-[#1f3540] text-[#26ffcb text-base] mt-4 mb-8">Reset</buttton>
-    </div>
+    </div >
   )
 }
 
