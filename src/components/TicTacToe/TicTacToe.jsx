@@ -16,6 +16,18 @@ const TicTacToe = () => {
             <div className="boxes"></div>
           </div>
         </div>
+
+ <div className="row2
+ ">
+            <div className="boxes"></div>
+            <div className="boxes"></div>
+            <div className="boxes"></div>
+          </div>
+        </div>
+
+        
+        
+        
         <buttton className="w-6 h-6 border-none outline-none cursor-pointer rounded bg-[#1f3540] text-[#26ffcb text-base] mt-4 mb-8">Reset</buttton>
     </div>
   )
