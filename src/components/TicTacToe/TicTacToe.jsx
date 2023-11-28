@@ -8,7 +8,6 @@ const TicTacToe = () => {
         <div className="flex b-[#1f540] w-6 h-6">
           <div className="boxes"></div>
           <div className="boxes"></div>
-          <div className="boxes"></div>
         </div>
         <div className="row2">
           <div className="boxes"></div>
