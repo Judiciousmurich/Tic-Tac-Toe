@@ -11,6 +11,7 @@ const TicTacToe = () => {
         <div className="row2">
           <div className="boxes"></div>
           <div className="boxes"></div>
+          <div className="boxes"></div>
         </div>
         <div className="row3">
           <div className="boxes"></div>
