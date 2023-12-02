@@ -14,6 +14,7 @@ const TicTacToe = () => {
         <div className="flex">
           <div className="boxes"></div>
           <div className="boxes"></div>
+          <div className="boxes"></div>
         </div>
         <div className="flex">
           <div className="boxes"></div>
