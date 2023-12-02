@@ -40,4 +40,48 @@ const TicTacToe = () => {
           {renderSquare(2)}
           {renderSquare(3)}
           {renderSquare(4)}
-       
+        </div>
+        <div className="flex">
+          {renderSquare(5)}
+          {renderSquare(6)}
+          {renderSquare(7)}
+          {renderSquare(8)}
+          {renderSquare(9)}
+        </div>
+      </div>
+
+      <div className="status mt-4 mb-4">{status}</div>
+
+      <button
+        onClick={() => setBoard(Array(9).fill(null))}
+        className="w-6 h-6 border-none outline-none cursor-pointer rounded bg-[#1f3540] text-[#26ffcb] text-base mt-4 mb-8"
+      >
+        Reset
+      </button>
+    </div>
+  );
+}
+
+const calculateWinner = (squares) => {
+  const lines = [
+    [0, 1, 2],
+    [3, 4, 5],
+    [6, 7, 8],
+    [0, 3, 6],
+    [1, 4, 7],
+    [2, 5, 8],
+    [0, 4, 8],
+    [2, 4, 6],
+  ];
+
+  for (let i = 0; i < lines.length; i++) {
+    const [a, b, c] = lines[i];
+    if (squares[a] && squares[a] === squares[b] && squares[a] === squares[c]) {
+      return squares[a];
+    }
+  }
+
+  return null;
+}
+
+export default TicTacToe;
