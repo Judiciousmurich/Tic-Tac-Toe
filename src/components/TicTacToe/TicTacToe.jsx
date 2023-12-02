@@ -8,6 +8,8 @@ const TicTacToe = () => {
         <div className="flex  w-6 h-6">
           <div className="boxes">
           <div className="boxes"></div>
+          <div className="boxes"></div>
+
 
           </div>
         </div>
