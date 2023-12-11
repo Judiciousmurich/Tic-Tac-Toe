@@ -50,7 +50,7 @@ const TicTacToe = () => {
         </div>
       </div>
 
-      <div className="status mt-4 mb-4  pt-4">{status}</div>
+      <div className="status mt-5 mb-4  pt-4">{status}</div>
 
       <button
         onClick={() => setBoard(Array(9).fill(null))}
